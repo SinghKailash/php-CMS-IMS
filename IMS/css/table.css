@@ -1,0 +1,65 @@
+table,
+thead, 
+tbody, 
+th, 
+td, 
+tr {
+  display: block;
+  overflow: hidden;
+}
+
+thead {
+  tr {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+  }
+}  
+tr:nth-child(odd) {
+  background-color: #ccc;
+}
+
+td {
+  padding: 0.25em 0.5em;
+  
+  &:before { content: attr(data-label)": ";
+    display: inline-block;
+    font-weight: bold;
+    width: 5em;
+  }
+}
+
+
+@media screen and (min-width: 650px) {
+  table {
+    display: table;
+    width: 100%;
+  }
+  thead { 
+    display: table-header-group; 
+  } 
+  thead tr {
+    position: static;
+    top: auto;
+    left: auto;
+  }
+  tbody { 
+    display: table-row-group; 
+  }
+  
+  tr { 
+    display: table-row; 
+  }
+  
+  th, td { 
+   display: table-cell;
+   padding: 6px 12px;
+   vertical-align: top; 
+    text-align: left;
+  }
+
+  td:before { 
+    content: "";
+    width: auto;
+  }
+}

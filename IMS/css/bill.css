@@ -1,0 +1,330 @@
+		
+		@import url(http://fonts.googleapis.com/css?family=Average);
+.mi .c i:before {
+  content: "1502";
+}
+.mi .c b:before {
+  content: "1502";
+}
+.mi .c em:before {
+  content: "3004";
+}
+.mi .a i:before {
+  content: "874";
+}
+.mi .a b:before {
+  content: "874";
+}
+.mi .a em:before {
+  content: "1748";
+}
+
+.ptmi .c i:before {
+  content: "3004";
+}
+.ptmi .c b:before {
+  content: "4752";
+}
+.ptmi .c em:before {
+  content: "63.21549%";
+}
+.ptmi .a i:before {
+  content: "1748";
+}
+.ptmi .a b:before {
+  content: "4752";
+}
+.ptmi .a em:before {
+  content: "36.78451%";
+}
+
+.rent h2 i:before {
+  content: "745";
+}
+.rent .r .c i:before {
+  content: "63.21549%";
+}
+.rent .r .c b:before {
+  content: "745";
+}
+.rent .r .c em:before {
+  content: "471";
+}
+.rent .r .a i:before {
+  content: "36.78451%";
+}
+.rent .r .a b:before {
+  content: "745";
+}
+.rent .r .a em:before {
+  content: "275";
+}
+.rent .tru {
+  font-weight: bold;
+  font-size: 150%;
+}
+.rent .tru .c i:before {
+  content: "471";
+}
+.rent .tru .a i:before {
+  content: "275";
+}
+
+.electricity h2 i:before {
+  content: "105";
+}
+.electricity .r .c i:before {
+  content: "63.21549%";
+}
+.electricity .r .c b:before {
+  content: "105";
+}
+.electricity .r .c em:before {
+  content: "67";
+}
+.electricity .r .a i:before {
+  content: "36.78451%";
+}
+.electricity .r .a b:before {
+  content: "105";
+}
+.electricity .r .a em:before {
+  content: "39";
+}
+.electricity .tru {
+  font-weight: bold;
+  font-size: 150%;
+}
+.electricity .tru .c i:before {
+  content: "67";
+}
+.electricity .tru .a i:before {
+  content: "39";
+}
+
+.internet h2 i:before {
+  content: "120";
+}
+.internet .r .c i:before {
+  content: "63.21549%";
+}
+.internet .r .c b:before {
+  content: "120";
+}
+.internet .r .c em:before {
+  content: "76";
+}
+.internet .r .a i:before {
+  content: "36.78451%";
+}
+.internet .r .a b:before {
+  content: "120";
+}
+.internet .r .a em:before {
+  content: "45";
+}
+.internet .tru {
+  font-weight: bold;
+  font-size: 150%;
+}
+.internet .tru .c i:before {
+  content: "76";
+}
+.internet .tru .a i:before {
+  content: "45";
+}
+
+.gas h2 i:before {
+  content: "40";
+}
+.gas .r .c i:before {
+  content: "63.21549%";
+}
+.gas .r .c b:before {
+  content: "40";
+}
+.gas .r .c em:before {
+  content: "26";
+}
+.gas .r .a i:before {
+  content: "36.78451%";
+}
+.gas .r .a b:before {
+  content: "40";
+}
+.gas .r .a em:before {
+  content: "15";
+}
+.gas .tru {
+  font-weight: bold;
+  font-size: 150%;
+}
+.gas .tru .c i:before {
+  content: "26";
+}
+.gas .tru .a i:before {
+  content: "15";
+}
+
+.car h2 i:before {
+  content: "162";
+}
+.car .r .c i:before {
+  content: "63.21549%";
+}
+.car .r .c b:before {
+  content: "162";
+}
+.car .r .c em:before {
+  content: "103";
+}
+.car .r .a i:before {
+  content: "36.78451%";
+}
+.car .r .a b:before {
+  content: "162";
+}
+.car .r .a em:before {
+  content: "60";
+}
+.car .tru {
+  font-weight: bold;
+  font-size: 150%;
+}
+.car .tru .c i:before {
+  content: "103";
+}
+.car .tru .a i:before {
+  content: "60";
+}
+
+.total h2 i:before {
+  content: "1177";
+}
+.total .tru {
+  font-weight: bold;
+  font-size: 150%;
+}
+.total .tru .c i:before {
+  content: "743";
+}
+.total .tru .a i:before {
+  content: "434";
+}
+
+body * {
+  box-sizing: border-box;
+}
+
+.wrapper {
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.3);
+  padding: 15px;
+  margin: 35px;
+  min-width: 900px;
+  overflow: hidden;
+}
+.wrapper i:before, .wrapper b:before, .wrapper em:before {
+  display: inline-block;
+}
+.wrapper h1 {
+  border-radius: 10px;
+  background: #fff;
+  font-family: "Average", serif;
+  font-weight: normal;
+  color: #c0fdfd;
+  padding: 1%;
+  margin: 0 0 15px;
+  position: relative;
+  overflow: hidden;
+}
+.wrapper h1 span {
+  border-radius: 10px;
+  background: #000;
+  padding: 1%;
+  display: block;
+  float: left;
+}
+.wrapper h1 i {
+  color: #fd00fd;
+  font-style: normal;
+}
+.wrapper h1 b {
+  color: #fff;
+  font-weight: normal;
+}
+.wrapper h1 a {
+  border-radius: 10px;
+  background: #000;
+  color: #c0fdfd;
+  text-decoration: none;
+  display: block;
+  padding: 1%;
+  float: right;
+}
+.wrapper h1 a:hover {
+  background: #444;
+}
+.wrapper h2 {
+  background: #eee;
+  font-family: "Average", serif;
+  font-size: 130%;
+  border: 1px #ccc solid;
+  padding: 1%;
+  margin: 0 0 15px;
+}
+.wrapper ul {
+  margin: 0 0 15px;
+  padding: 0;
+}
+.wrapper ul li {
+  list-style: none;
+  padding: 3px 25px;
+  border-bottom: 1px #ddd solid;
+}
+.wrapper b {
+  font-weight: normal;
+}
+.wrapper i, .wrapper em {
+  font-style: normal;
+}
+
+.income {
+  overflow: hidden;
+  margin: 0 0 15px;
+}
+
+.monthly-income, .percent {
+  border-radius: 10px;
+  background: #fff;
+  width: 49.5%;
+  float: left;
+  padding: 1%;
+  margin: 0 1% 0 0;
+}
+.monthly-income h2 i:before, .percent h2 i:before {
+  float: right;
+  content: "Total: 4752";
+}
+
+.percent {
+  margin: 0;
+}
+
+.rent, .electricity, .internet, .gas, .car, .total {
+  border-radius: 10px;
+  background: #fff;
+  float: left;
+  width: 19.2%;
+  padding: 1%;
+  margin: 0 1% 0 0;
+}
+
+.car {
+  margin: 0;
+}
+
+.total {
+  width: 100%;
+  margin: 15px 0 0;
+}

@@ -1,0 +1,227 @@
+
+
+@import url("http://fonts.googleapis.com/css?family=Ubuntu+Condensed");
+
+    nav{
+	  padding-top: 8px;
+	  padding-left: 8px;
+	  padding-right: 8px;
+    }
+
+    nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    }
+
+    nav ul li{
+    display: inline;
+    }
+
+    nav ul li a:hover{
+	   opacity: 0.7;
+	  }
+
+    nav ul li a.email{
+	  border-left: 50px solid #c9182c;
+	  color: #c9182c;
+    }
+
+
+	  nav ul li a.facebook{
+    border-left: 50px solid #365998;
+	  color: #365998;
+    }
+	
+	  nav ul li a.github{
+    border-left: 50px solid #4183c4;
+	  color: #4183c4;
+    }
+	
+	  nav ul li a.google{
+    border-left: 50px solid #db4a39;
+	  color: #db4a39;
+    }
+	
+
+    nav ul li a.tumblr{
+    border-left: 50px solid #34526f;
+	  color: #34526f;
+    }
+	
+    nav ul li a.codepen{
+    border-left: 50px solid #ffa500;
+	  color: #ffa500;
+    }
+	
+
+/* Start Navbar */
+.navbar-default{
+    background: -webkit-linear-gradient(#ffc966, #ffff99);
+    background: -o-linear-gradient(#ffc966, #ffff99);
+    background: -moz-linear-gradient(#ffc966, #ffff99);
+    background: linear-gradient(#ffc966, #ffff99);
+    border-style: solid;
+    border-color: gray;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: #555;
+    background: linear-gradient(#ffae19, #fffb93);;
+}
+.navbar-toggle{
+    background: -webkit-linear-gradient(#ffc966, #ffff99);
+    background: -o-linear-gradient(#ffc966, #ffff99);
+    background: -moz-linear-gradient(#ffc966, #ffff99);
+    background: linear-gradient(#ffae19, #fffb93);
+}
+
+.navbar-toggle{
+  width: 42px;
+  height: 38px;
+  float: right;
+  margin-top: 10px;
+}
+
+.navbar-toggle * {
+	-ms-transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+}
+
+.navbar-toggle span {
+	width: 20px;
+	height: 2px;
+	margin-bottom: 3px;
+	background-color: red;
+	display: block;
+}
+
+.navbar-toggle span.bar1 {
+	-ms-transform: rotate(45deg);
+	-webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+	-ms-transform-origin: 1px 3px;
+	-webkit-transform-origin: 1px 3px;
+  -moz-transform-origin: 1px 3px;
+  -o-transform-origin: 1px 3px;
+	transform-origin: 1px 3px;
+	width: 24px;
+} 
+.navbar-toggle span.bar2 {
+  -ms-transform: rotate(-360deg) scale(0);
+  -webkit-transform: rotate(-360deg) scale(0);
+  -moz-transform: rotate(-360deg) scale(0);
+  -o-transform: rotate(-360deg) scale(0);
+  transform: rotate(-360deg) scale(0);
+}
+.navbar-toggle span.bar3 {
+  -ms-transform: rotate(360deg) scale(0);
+  -webkit-transform: rotate(360deg) scale(0);
+  -moz-transform: rotate(360deg) scale(0);
+  -o-transform: rotate(360deg) scale(0);
+  transform: rotate(360deg) scale(0);
+} 
+.navbar-toggle span.bar4 {
+	-ms-transform: rotate(-45deg);
+	-webkit-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+	-ms-transform-origin: 2px 0px;
+	-webkit-transform-origin: 2px 0px;
+	transform-origin: 2px 0px;
+	width: 24px;
+}
+.navbar-toggle.collapsed span.bar1,
+.navbar-toggle.collapsed span.bar2,
+.navbar-toggle.collapsed span.bar3,
+.navbar-toggle.collapsed span.bar4 {
+	-ms-transform: none;
+	-webkit-transform: none;
+	transform: none;
+	width: 20px;
+}
+
+.collapsed{
+  transition: transform 0.5s ease;
+  -moz-transition: transform 0.5s ease;
+  -webkit-transition: transform 0.5s ease;
+  -o-transition: transform 0.5s ease;
+}
+
+.collapsed:hover {
+  transform: rotateX(360deg);/* rotateY(360deg) rotateZ(360deg);*/
+  -webkit-transform: rotateX(360deg); /* rotateY(360deg) rotateZ(360deg);*/
+  -moz-transform: rotateX(360deg);/* rotateY(360deg) rotateZ(360deg);*/
+  -o-transform: rotateX(360deg); /* rotateY(360deg) rotateZ(360deg);*/
+}
+
+.navbar-brand{
+  font-family: Tangerine;
+  font-size: 20px;
+  font-weight: bold;
+  /*text-shadow: 4px 4px 4px #aaa;*/
+}
+/* End Navbar */
+
+
+
+
+*{
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+    }
+
+    html{
+    height: auto;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fff;
+    }
+
+    body{
+	margin-top: 70px;
+	margin-bottom: 70px;
+    height: auto;
+    font: 25px/24px normal 'Ubuntu Condensed', sans-serif;
+    }
+
+
+    a{
+    text-decoration: none;
+    }
+
+    .social{
+    display: inline-block;
+	  position: relative;
+    width: 100%;
+    padding: 16px;
+    margin-bottom: 16px;
+    margin-right: 16px;
+    background-color: rgba(231, 231, 231, 0.6);
+    box-shadow: 8px 8px 0 0px rgba(0, 0, 0, 0.25);
+    }
+	
+	
+	/*Footer style*/
+
+
+
+ .footer{
+height: 30px;
+background: linear-gradient(#ffae19, #ffedcc);
+border-style: solid;
+border-color: green;
+font-size: 15px;
+}
+
+
+.copyright{
+   padding-top: 5px 
+}
+
+
