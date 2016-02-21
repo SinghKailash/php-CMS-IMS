@@ -8,3 +8,9 @@ Another app in this repository contains a Inventory management application devel
 
 Please use XAMPP, WAMP OR LAMP to host this application:-
 or contact me at kailashsingh0029@gmail.com
+
+Here's the screenshot:
+
+Inline-style: 
+![alt text](https://github.com/SinghKailash/php-CMS-IMS/blob/master/Capture.JPG "Inventory management system")
+
